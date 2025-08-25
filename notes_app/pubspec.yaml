@@ -1,20 +1,24 @@
-name: notes_app
-description: "A Flutter Notes App with SQLite and Provider"
-publish_to: "none"
+name: flutter_notes_app
+description: A simple note management app with CRUD operations
+
+publish_to: 'none'
 version: 1.0.0+1
+
 environment:
-  sdk: ">=3.0.0 <4.0.0"
+  sdk: '>=2.19.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.8
-  path: ^1.8.4
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  intl: ^0.18.1
+  cupertino_icons: ^1.0.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
+  flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
